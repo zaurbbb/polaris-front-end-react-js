@@ -1,0 +1,29 @@
+/*--------------------*/
+footer {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 0.8rem 1rem;
+  width: 100%;
+  background-color: #23192c;
+  color: #bbbbbb;
+  font-size: 0.833rem;
+  font-weight: 400;
+}
+footer .footerLinks {
+  display: flex;
+  flex-direction: row;
+  gap: 0.5rem;
+  font-size: 0.694rem;
+  font-weight: 400;
+}
+footer .footerLinks a {
+  color: #bbbbbb;
+  transition: all 0.5s ease;
+}
+footer .footerLinks a:hover {
+  color: #ffffff;
+}
+
+/*# sourceMappingURL=Footer.module.css.map */

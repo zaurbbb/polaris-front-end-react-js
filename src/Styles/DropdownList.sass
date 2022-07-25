@@ -1,0 +1,60 @@
+@import "./Variables"
+
+.select-box--container
+  border: 1px solid #aaa
+  height: 2rem
+  width: 100%
+  margin: 0
+  padding: 0
+  @include font($fs5, $fwR)
+*
+  box-sizing: border-box
+.select-box--box
+  width: 100%
+.select-box--line
+  padding: 0 10px
+  @include center
+  height: 2rem
+  flex-direction: row
+.select-box---selected-item
+  @include center
+  gap: 0.5rem
+  height: 100%
+  width: 100%
+  vertical-align: middle
+  img
+    width: 1rem
+    height: 1rem
+
+
+.select-box--items
+  position: relative
+  left: -1px
+  z-index: 100
+  div
+    border-bottom: 1px solid #ddd
+    border-left: 1px solid #ddd
+    border-right: 1px solid #ddd
+    height: 2rem
+    //padding: 0.5rem 0.7rem
+    @include center
+    gap: 0.5rem
+    width: 100.8%
+    background-color: #3b1a5b
+    z-index: 10
+  img
+    width: 1rem
+    height: 1rem
+
+.select-box---arrow
+  width: 30px
+  height: 30px
+  margin: 0
+  padding: 0
+  background: transparent
+  @include center
+  img
+    width: 0.5rem
+    height: 0.5rem
+    color: white
+    filter: invert(100%)

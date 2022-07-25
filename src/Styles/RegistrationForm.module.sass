@@ -1,0 +1,56 @@
+@import "./Variables"
+
+.formBlock
+  color: white
+  height: 82vh
+  @include center
+  flex: 1 1 auto
+  flex-direction: column
+  padding: 0 5rem
+  text-align: center
+
+form
+  width: 50%
+  height: 50%
+  background-color: rgba(166, 115, 213, 0.08)
+  border-radius: 6px
+  margin: 0 auto
+  padding: 32px 40px
+  text-align: start
+
+.regInput
+  @include font($fs5, $fwR)
+  color: $gray
+  border: none
+  border-bottom: 2px solid $gray
+  @include size(400px, 50px)
+  width: 100%
+  display: inline-block
+  padding: 0 20px
+  background-color: transparent
+  box-sizing: border-box
+  transition: all 1s
+  font-family: $montserrat
+  label
+    color: $gray
+    padding: 0 20px
+    transition: all 1s
+    &:hover
+      color: white
+  &::placeholder
+    padding-left: 0
+    line-height: 30px
+    @include font($fs5, $fwR)
+    transition: all 1s
+  &:focus
+    outline: none
+    border-bottom: 2px solid white
+    color: white
+  &:focus::placeholder
+    color: white
+  &:focus + label:nth-child(n)
+    color: red
+
+
+
+

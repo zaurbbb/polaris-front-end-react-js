@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,500;1,700&display=swap')
+
+@import "./Styles/Variables.sass"
+
+*
+  box-sizing: border-box
+body
+  margin: 0
+  font-family: 'Montserrat', sans-serif
+  background-size: 100%
+  background-repeat: no-repeat
+  background-image: linear-gradient(90deg, #020202, #34065f)
+  height: 100%
+
+
+
+
+.red-color
+  color: $red
+
+.light-red-color
+  color: #FF9CA9
+  @include font($fs4, $fwR)
+
+.title-word
+  @include font($fs1, $fwB)
+
+.subtitle-word
+  @include font($fs3, $fwB)
+
+html
+  font-size: 25.00px
+
+.inner
+  padding: 0 3rem
+  @include center
+  flex-direction: column
+  gap: 80px
+
+.second_inner
+  margin: 100px 0
+
+@media (max-width: $xxxl)
+  html
+    font-size: 25px
+
+@media (max-width: $xxl)
+
+
+@media (max-width: $xl)
+  .inner
+    padding: 0 50px
+
+@media (max-width: $lg)
+  .inner
+    padding: 0 30px
+
+@media (max-width: $md)
+  html
+    font-size: 20.00px
+  .inner
+    padding: 0 30px
+
+@media (max-width: $xs)
+  html
+    font-size: 16.00px
+  .inner
+    padding: 0 20px
+
+
+//@media (max-width: $xxl)
+//
+//
+//@media (max-width: $xl)
+//
+//
+//@media (max-width: $lg)
+//
+//
+//@media (max-width: $md)
+//
+//
+//@media (max-width: $sm)
+//
+//
+//@media (max-width: $xs)
+//
+
+a,a:visited
+  text-decoration: none
+
+a:hover
+  text-decoration: none
+
+a:focus,a:active
+  outline: none
+
+button
+  cursor: pointer
+
+button::-moz-focus-inner
+  padding: 0
+  border: 0
+
+::-webkit-input-placeholder
+  text-align: left
+  padding: 20px
+
+::-webkit-scrollbar
+  opacity: 0.5
+  width: 5px
+::-webkit-scrollbar-track
+  opacity: 0.5
+  background: #f1f1f1
+::-webkit-scrollbar-thumb
+  background: #C0C0C0
+  &:hover
+    opacity: 1
+    background: rgb(105, 0, 255)

@@ -1,0 +1,58 @@
+@import "./Variables"
+
+header
+  display: flex
+  flex-direction: row
+  align-items: center
+  justify-content: space-between
+  padding: 0.5rem 5rem
+  transition: all 1s
+  div
+    transition: all 1s
+  div:nth-child(1)
+    @include center
+    width: 4rem
+    padding-top: 6px
+    img
+      width: 100%
+  div:nth-child(even)
+    @include center
+    gap: 3rem
+    transition: all 1s
+    width: 6rem
+  div:nth-child(3)
+    font-family: $montserrat
+    @include center
+    width: 3rem
+    color: white
+    img
+      width: 1.5rem
+      height: 1.5rem
+    &:hover
+      img
+        transition: all 1s
+        transform: rotate(270deg)
+  .headerLinks
+    display: flex
+    flex-direction: row
+    padding-top: 10px
+    margin-top: -9px
+    img
+      margin-right: 10px
+
+  .headerBtn
+    font-family: "Montserrat", sans-serif
+    align-items: center
+    transition: 0.5s
+    @include font($fs4, $fwR)
+    padding: 10px 20px
+    background-color: #3b1a5b
+    color: white
+    &:hover
+      background-color: #68458a
+
+.inActive
+  color: $gray
+
+.active
+  color: white

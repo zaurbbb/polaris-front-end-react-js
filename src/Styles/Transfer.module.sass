@@ -1,0 +1,77 @@
+@import "./Variables"
+
+.transferSection
+  color: white
+  height: 82vh
+  @include center
+  flex: 1 1 auto
+  flex-direction: column
+  padding: 0 5rem
+  text-align: center
+  .transferBlock
+    width: 50%
+    height: auto
+    background-color: rgba(166, 115, 213, 0.08)
+    border-radius: 6px
+    margin: 0 auto
+    padding: 1rem 40px
+    text-align: start
+    label
+      @include font($fs6, $fwR)
+    p
+      text-align: left
+    h1               
+      color: white   
+
+.transferInput,
+.transferRedInput,
+.transferGreenInput,
+select
+  width: auto
+  @include font($fs5, $fwR)
+  color: $gray
+  border: 2px solid $gray
+  @include size(400px, 50px)
+  display: inline-block
+  height: 2rem
+  padding: 0 20px
+  background-color: transparent
+  box-sizing: border-box
+  transition: all 1s
+  font-family: $montserrat
+  &::placeholder
+    padding-left: 0
+    line-height: 30px
+    @include font($fs5, $fwR)
+    transition: all 1s
+  &:focus
+    outline: none
+    border: 2px solid white
+    color: white
+  &:focus::placeholder
+    color: white
+  &:focus + label:nth-child(n)
+    color: red
+
+.transferRedInput
+  color: white
+  width: 3rem
+  padding: 0 10px
+  &:focus, &:focus::placeholder
+    color: #BE123C
+
+.transferGreenInput
+  color: white
+  width: 3rem
+  padding: 0 10px
+  &:focus, &:focus::placeholder
+    color: lightseagreen
+
+option
+  @include center
+  flex-direction: column
+
+.transferLine
+  @include center
+  flex-direction: row
+  gap: 0.5rem

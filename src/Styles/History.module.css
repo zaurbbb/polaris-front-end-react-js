@@ -1,0 +1,31 @@
+/*--------------------*/
+.historySection {
+  color: white;
+  width: 95%;
+  height: 50%;
+  background-color: rgba(166, 115, 213, 0.08);
+  border-radius: 6px;
+  margin: 50px auto;
+  padding: 20px 40px;
+  text-align: start;
+}
+.historySection article {
+  display: grid;
+  grid-template-columns: 1.5fr 1fr 1.4fr repeat(5, 1fr);
+  justify-content: flex-start;
+  flex-direction: row;
+  margin: 1rem 0;
+}
+.historySection article div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 0.3rem;
+}
+.historySection article div img {
+  width: 1rem;
+  height: 1rem;
+}
+
+/*# sourceMappingURL=History.module.css.map */

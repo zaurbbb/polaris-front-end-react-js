@@ -1,0 +1,23 @@
+@import "./Variables"
+
+footer
+  display: flex
+  align-items: center
+  flex-direction: row
+  justify-content: space-between
+  padding: 0.8rem 1rem
+  width: 100%
+  background-color: #23192c
+  color: #bbbbbb
+  @include font($fs5, $fwR)
+  .footerLinks
+    display: flex
+    flex-direction: row
+    //padding-top: 10px
+    gap: 0.5rem
+    @include font($fs6, $fwR)
+    a
+      color: #bbbbbb
+      transition: all 0.5s ease
+      &:hover
+        color: #ffffff

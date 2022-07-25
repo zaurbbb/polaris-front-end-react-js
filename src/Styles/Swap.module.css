@@ -1,0 +1,79 @@
+/*--------------------*/
+.swapSection {
+  color: white;
+  height: 82vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex: 1 1 auto;
+  flex-direction: column;
+  padding: 0 5rem;
+  text-align: center;
+}
+.swapSection .swapBlock {
+  width: 50%;
+  height: auto;
+  background-color: rgba(166, 115, 213, 0.08);
+  border-radius: 6px;
+  margin: 0 auto;
+  padding: 1rem 40px;
+  text-align: start;
+}
+.swapSection .swapBlock h1 {
+  color: white;
+}
+
+.swapInput, select {
+  font-size: 0.833rem;
+  font-weight: 400;
+  color: #676767;
+  border: 2px solid #676767;
+  width: 400px;
+  height: 50px;
+  display: inline-block;
+  height: 2rem;
+  padding: 0 20px;
+  background-color: transparent;
+  box-sizing: border-box;
+  transition: all 1s;
+  font-family: "Montserrat", sans-serif;
+}
+.swapInput::placeholder, select::placeholder {
+  padding-left: 0;
+  line-height: 30px;
+  font-size: 0.833rem;
+  font-weight: 400;
+  transition: all 1s;
+}
+.swapInput:focus, select:focus {
+  outline: none;
+  border: 2px solid white;
+  color: white;
+}
+.swapInput:focus::placeholder, select:focus::placeholder {
+  color: white;
+}
+.swapInput:focus + label:nth-child(n), select:focus + label:nth-child(n) {
+  color: red;
+}
+
+.swapInput {
+  width: 15 0%;
+}
+
+option {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.swapLine {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  gap: 0.5rem;
+}
+
+/*# sourceMappingURL=Transfer.module.css.map */

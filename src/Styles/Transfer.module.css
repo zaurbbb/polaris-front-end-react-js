@@ -1,0 +1,116 @@
+/*--------------------*/
+.transferSection {
+  color: white;
+  height: 82vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex: 1 1 auto;
+  flex-direction: column;
+  padding: 0 5rem;
+  text-align: center;
+}
+.transferSection .transferBlock {
+  width: 50%;
+  height: auto;
+  background-color: rgba(166, 115, 213, 0.08);
+  border-radius: 6px;
+  margin: 0 auto;
+  padding: 1rem 40px;
+  text-align: start;
+}
+.transferSection .transferBlock label {
+  font-size: 0.694rem;
+  font-weight: 400;
+}
+.transferSection .transferBlock p {
+  text-align: left;
+}
+.transferSection .transferBlock h1 {
+  color: white;
+}
+
+.transferInput,
+.transferRedInput,
+.transferGreenInput,
+select {
+  width: auto;
+  font-size: 0.833rem;
+  font-weight: 400;
+  color: #676767;
+  border: 2px solid #676767;
+  width: 400px;
+  height: 50px;
+  display: inline-block;
+  height: 2rem;
+  padding: 0 20px;
+  background-color: transparent;
+  box-sizing: border-box;
+  transition: all 1s;
+  font-family: "Montserrat", sans-serif;
+}
+.transferInput::placeholder,
+.transferRedInput::placeholder,
+.transferGreenInput::placeholder,
+select::placeholder {
+  padding-left: 0;
+  line-height: 30px;
+  font-size: 0.833rem;
+  font-weight: 400;
+  transition: all 1s;
+}
+.transferInput:focus,
+.transferRedInput:focus,
+.transferGreenInput:focus,
+select:focus {
+  outline: none;
+  border: 2px solid white;
+  color: white;
+}
+.transferInput:focus::placeholder,
+.transferRedInput:focus::placeholder,
+.transferGreenInput:focus::placeholder,
+select:focus::placeholder {
+  color: white;
+}
+.transferInput:focus + label:nth-child(n),
+.transferRedInput:focus + label:nth-child(n),
+.transferGreenInput:focus + label:nth-child(n),
+select:focus + label:nth-child(n) {
+  color: red;
+}
+
+.transferRedInput {
+  color: white;
+  width: 3rem;
+  padding: 0 10px;
+}
+.transferRedInput:focus, .transferRedInput:focus::placeholder {
+  color: #BE123C;
+}
+
+.transferGreenInput {
+  color: white;
+  width: 3rem;
+  padding: 0 10px;
+}
+.transferGreenInput:focus, .transferGreenInput:focus::placeholder {
+  color: lightseagreen;
+}
+
+option {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.transferLine {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  gap: 0.5rem;
+}
+
+/*# sourceMappingURL=Transfer.module.css.map */
