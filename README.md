@@ -4,11 +4,11 @@
 ![image](https://img.shields.io/badge/Material%20UI-007FFF?style=for-the-badge&logo=mui&logoColor=white)
 ![image](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
 ![image](https://img.shields.io/badge/Sass-CC6699?style=for-the-badge&logo=sass&logoColor=white)
-# Polaris - cryptocurrency exchange platform
+# Polaris
 
 ## Description
 
-[**Polaris**](https://github.com/manste1n/PolarisProject) - cryptocurrency exchange platform.
+[**Polaris**](https://github.com/manste1n/PolarisProject) - cryptocurrency exchange platform. Main feature is the exchange between wallets
 
 Live demo of Front-End part: https://zaurbbb.github.io/polaris-react-hackathon/
 
