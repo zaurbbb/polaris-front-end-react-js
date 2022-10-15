@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/polaris-react-front-end-hackathon/static/css/main.88f23802.css",
+    "main.js": "/polaris-react-front-end-hackathon/static/js/main.1c385a51.js",
+    "index.html": "/polaris-react-front-end-hackathon/index.html",
+    "main.88f23802.css.map": "/polaris-react-front-end-hackathon/static/css/main.88f23802.css.map",
+    "main.1c385a51.js.map": "/polaris-react-front-end-hackathon/static/js/main.1c385a51.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.88f23802.css",
+    "static/js/main.1c385a51.js"
+  ]
+}
