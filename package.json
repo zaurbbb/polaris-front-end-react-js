@@ -1,7 +1,7 @@
 {
   "name": "polaris-front-end-react-js",
   "version": "0.1.0",
-  "homepage": "https://zaurbbb.github.io/polaris-react-front-end-hackathon",
+  "homepage": "https://zaurbbb.github.io/polaris-react-hackathon",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.4",
