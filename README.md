@@ -6,7 +6,7 @@
 
 ## Description
 
-[Polaris](https://github.com/manste1n/PolarisProject) - cryptocurrency exchange platform.
+[**Polaris**](https://github.com/manste1n/PolarisProject) - cryptocurrency exchange platform.
 
 Live demo of landing page: https://zaurbbb.github.io/bolek-landing-hackathon/
 
